@@ -1,0 +1,33 @@
+{
+  "name": "fornex-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json --format verbose",
+    "lint-fix": "npm run lint -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgraydev/fornex-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgraydev/fornex-node/issues"
+  },
+  "homepage": "https://github.com/markgraydev/fornex-node#readme",
+  "devDependencies": {
+    "@types/request-promise": "^4.1.44",
+    "tslint": "^5.20.1",
+    "tslint-config": "github:markgraydev/tslint-config",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
