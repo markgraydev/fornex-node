@@ -1,6 +1,6 @@
 {
   "name": "fornex-node",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,9 @@
     "url": "https://github.com/markgraydev/fornex-node/issues"
   },
   "homepage": "https://github.com/markgraydev/fornex-node#readme",
+  "files": [
+    "lib/*.js"
+  ],
   "devDependencies": {
     "@types/request-promise": "^4.1.44",
     "tslint": "^5.20.1",
